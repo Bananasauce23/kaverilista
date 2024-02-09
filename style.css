@@ -1,0 +1,47 @@
+:root{
+    --fontti: #12174C;
+    --buttonlinkbg: #7B9DF1;
+    --fonttihover: #2C2DA3;
+    --bghover: #DFE7F7;
+}
+
+body{
+    background-color: #E0E7F7;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: var(--fontti);
+}
+
+a{
+    border: 3px solid var(--fontti);
+    padding: 0.2em;
+    text-decoration: none;
+    background-color: var(--buttonlinkbg);
+    font-size: 1em;
+    color: var(--fontti);
+}
+
+a:hover{
+    color: var(--fonttihover);
+    background-color: var(--bghover);
+    border: 3px solid var(--fonttihover);
+}
+
+button{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: var(--buttonlinkbg);
+    font-size: 1em;
+    border: 3px solid var(--fontti);
+    color: var(--fontti);
+}
+
+button:hover{
+    color: var(--fonttihover);
+    background-color: var(--bghover);
+    border: 3px solid var(--fonttihover);
+}
+
+h1{
+    text-decoration: underline;
+    font-size:3em;
+    margin-bottom: 10px;
+}
